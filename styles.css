@@ -115,6 +115,7 @@ Header
     display: flex;
     flex-direction: column;
     width: 40%;
+    height: 100%;
 }
 
 .header__description--title {
@@ -174,12 +175,15 @@ Header
     color: #243e63
 }
 
+
 .header__img--wrapper{
-    width:60%;
-}
-.header__img{
-    widht: 50px;
-    height: 300px;
+   width: 60%;
+   overflow: hidden;
+   display: flex;
+   justify-content:flex-end;
+   
 }
 
-   
+.header__img{
+    max-width: 100%;
+}
