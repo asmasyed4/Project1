@@ -91,7 +91,7 @@ li {
     margin-left:32px
 }
 .nav__link--primary {
-    background-color: #6030b1;
+    background-color: #6415ff;
     padding: 8px 20px;
     border-radius: 9999px;
     color:white;
@@ -187,3 +187,126 @@ Header
 .header__img{
     max-width: 100%;
 }
+
+/* Features */
+
+#features{
+padding: 0 68px 0 68px;
+}
+
+.row__column{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+
+.section__title{
+    font-weight: 700;
+    letter-spacing: 1.6px;;
+}
+
+.section__sub-title{
+    margin: 16px 0px; 
+    font-size: 48px;
+}
+.section__para{
+text-align: center;
+max-width: 576px;
+font-size: 18px;
+color: #7c8ba1;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service{
+    display: flex;
+    width: calc(100% / 3);
+    padding: 32px 24px;
+}
+
+.service__img{
+    padding: 20px;
+    border: 1px solid #e5e7eb;
+    border-radius: 500px;
+}
+
+.service__description{
+    display: flex;
+    flex-direction: column;
+    margin: 8px 0 0 16px;
+}
+
+.service__para {
+    margin: 16px 0 0 0;
+    line-height: 2;
+    font-size: 16px;
+    color: rgb(124, 139, 161);
+    font-weight: 500;;
+}
+
+/*Quality work section */
+
+#quality {
+    padding: 0 32px;
+}
+
+.work{
+    width:50%;  
+    margin: 0 64px 0 0; 
+}
+
+.work__title{
+    font-size:16px;
+    letter-spacing: 1.6px;
+}
+
+.work__subtitle {
+    padding:16px 0 16px 0;
+    font-size: 36px;
+}
+
+.work__para {
+    font-size: 18px;
+    font-weight: 500;
+    color: #7c8ba1;
+    line-height: 1.625;
+}
+
+
+.work__btn:hover{
+    cursor: pointer;
+    color: rgb(100, 21, 255);
+    transition: all 300ms ease;
+}
+
+.work__btn {
+    background-color: #6415ff;
+    color:white;
+    padding:12px 32px;
+    border-radius: 500px;
+    border:none;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 32px 0 0;
+}
+
+.work__img--wrapper{
+    width:50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden;
+    margin: 0 56px;
+}
+
+.work__img{
+    max-width: 100%;
+    border: 1px solid #243e63;
+}
+
+
+
+
