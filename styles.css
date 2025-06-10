@@ -219,6 +219,7 @@ color: #7c8ba1;
 .services {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .service{
@@ -265,7 +266,7 @@ color: #7c8ba1;
 
 .work__subtitle {
     padding:16px 0 16px 0;
-    font-size: 36px;
+    font-size: 48px;
 }
 
 .work__para {
@@ -435,6 +436,7 @@ color: #7c8ba1;
 .value__para{
     font-size: 16px;
     margin: 0 32px 0 0;
+    color:#7c8ba1
 }
 
 .values__btn:hover{
@@ -465,4 +467,51 @@ color: #7c8ba1;
 .values__img{
     max-width:100%;
 }
+
+
+
+
+
+/* PRICING */
+
+
+
+
+.pricing__title{
+    font-size: 16px;
+    letter-spacing: 1.6px;
+    font-weight: 700;
+}
+
+.pricing__subtitle{
+    font-size: 48px;
+    font-weight: 900;
+    margin: 16px 0 32px 0;
+    color: rgb(36, 62, 99);
+}
+
+.pricing__para {
+    text-align:center;
+    max-width: 576px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #7c8ba1;
+    line-height: 1.625;
+}
+
+.plans{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.plan{
+    width: calc(100% / 3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
 
