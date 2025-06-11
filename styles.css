@@ -27,6 +27,10 @@ a:hover{
     color: #7342d6;;
 }
 
+button{
+    cursor: pointer;
+}
+
 p{
     line-height: 1.5;
 }
@@ -105,6 +109,8 @@ li {
 #landing{
     padding:0 32px;
 }
+
+
 /*
 
 Header
@@ -146,6 +152,9 @@ Header
     z-index: 1;
    }
 
+   .header__email--btn:hover{
+    background-color:rgb(60,13, 153); 
+   }
 .header__email--btn {
     margin:8px;
     border-radius: 500px;
@@ -279,7 +288,7 @@ color: #7c8ba1;
 
 .work__btn:hover{
     cursor: pointer;
-    color: rgb(100, 21, 255);
+    background-color:rgb(60,13, 153);
     transition: all 300ms ease;
 }
 
@@ -441,7 +450,7 @@ color: #7c8ba1;
 
 .values__btn:hover{
     cursor: pointer;
-    color: rgb(100, 21, 255);
+    background-color:rgb(60,13, 153);
     transition: all 300ms ease;
 }
 
@@ -510,8 +519,99 @@ color: #7c8ba1;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 64px;
 }
 
+.plan__top,
+.plan__middle,
+.plan__bottom {
+   padding: 32px;
+   text-align: center;
+}
+
+.plan__top--name,
+.plan__top--price,
+.plan__top--duration{
+    font-weight: bold;
+    line-height: 1.625;;
+}
+.plan__top--name{
+    font-size: 20px;
+    color: #1a202c;
+}
+
+.plan__top--price{
+    font-size:48px;
+    margin: 4px 0;
+}
+
+.plan__top--duration{
+    font-size: 16px;
+    color: #a0aec0;
+}
+
+.plan__middle--target {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 0.025em;
+}
+
+.plan__middle--feature {
+    margin-top:20px;
+    font-weight: 500;
+    color: #718096;
+    line-height: 1.5;
+    font-size:16px;
+}
+
+
+.plan__btn--1:hover{
+    cursor: pointer;
+    transform: translate(1px, -1px);
+    transition: all 300ms ease;
+}
+.plan__btn--2:hover{
+    cursor: pointer;
+    transform: translate(1px, -1px);
+    transition: all 300ms ease;
+}
+.plan__btn--3:hover{
+        cursor: pointer;
+        transform: translate(1px, -1px);
+        transition: all 300ms ease;
+    }
+.plan__btn--1,
+.plan__btn--2,
+.plan__btn--3 {
+        color:white;
+        padding:16px 32px;
+        border-radius: 500px;
+        border:none;
+        font-size: 14px;
+        font-weight: bold;
+        margin: 32px 0 0;
+    }
+
+.plan__btn--1 {
+        background: linear-gradient(
+            115deg, 
+        rgb(56, 178, 172) 0%,
+        rgb(129, 230, 217) 100%);
+        
+    }
+
+ .plan__btn--2{
+        color: #6415ff;
+        background-color: #eaf3f9;
+    }
+
+.plan__btn--3 {
+    background: linear-gradient(
+        115deg, 
+    rgb(245, 101, 101) 0%,
+    rgb(254, 178, 178) 100%);
+    }
 
 
 
